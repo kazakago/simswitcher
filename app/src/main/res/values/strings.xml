@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SIM Switcher</string>
+    <string name="tile_subtitle_default">Tap to open settings</string>
+    <string name="tile_subtitle_disabled">SIM is disabled</string>
+    <string name="tile_subtitle_unknown_sim">Unknown SIM</string>
+    <string name="toast_permission_denied_notice">Please grant "Phone" permission in the app settings to display the active SIM name.</string>
 </resources>
