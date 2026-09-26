@@ -1,0 +1,38 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "allowUnsandboxedCommands": false,
+    "excludedCommands": [
+      "gh:*",
+      "git:*",
+      "./gradlew:*",
+      "adb:*",
+      "android:*"
+    ],
+    "network": {
+      "allowedDomains": [
+        "services.gradle.org",
+        "plugins.gradle.org",
+        "dl.google.com",
+        "repo.maven.apache.org",
+        "api.foojay.io"
+      ]
+    }
+  },
+  "permissions": {
+    "deny": [
+      "Read(.idea/**)",
+      "Read(**/.gradle/**)",
+      "Read(**/.kotlin/**)",
+      "Read(**/build/.transforms/**)",
+      "Read(**/build/classes/**)",
+      "Read(**/build/intermediates/**)",
+      "Read(**/build/kotlin/**)",
+      "Read(**/build/kotlin-dsl/**)",
+      "Read(**/build/pluginDescriptors/**)",
+      "Read(**/build/processedResources/**)",
+      "Read(**/build/resources/**)",
+      "Read(**/build/tmp/**)"
+    ]
+  }
+}
